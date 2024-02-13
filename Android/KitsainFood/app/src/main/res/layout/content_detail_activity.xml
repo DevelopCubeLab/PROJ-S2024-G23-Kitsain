@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contend_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="22sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/content"/>
+
+    <RelativeLayout
+        android:id="@+id/contend_detail_send_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contend_detail_title">
+
+        <ImageView
+            android:id="@+id/content_detail_user_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/user"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <TextView
+            android:id="@+id/content_detail_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textSize="17sp"
+            android:layout_toEndOf="@id/content_detail_user_image"/>
+
+        <TextView
+            android:id="@+id/content_detail_post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post_time"
+            android:textSize="15sp"
+            android:layout_below="@id/content_detail_user_name"
+            android:layout_toEndOf="@id/content_detail_user_image"/>
+
+        <TextView
+            android:id="@+id/content_detail_post_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post_location"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/content_detail_user_name"
+            android:layout_toEndOf="@id/content_detail_post_time"/>
+
+        <TextView
+            android:id="@+id/content_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/content_detail_user_image"
+            android:textSize="21sp"
+            android:text="@string/title"/>
+
+        <TextView
+            android:id="@+id/content_detail_content_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/content_detail_title"
+            android:textSize="19sp"
+            android:text="@string/content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/contend_detail_send_info">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reply"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reply"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reply"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reply"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reply"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/reply"
+            android:autofillHints="no"
+            android:inputType="text"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Send"/>
+    </LinearLayout>
+
+</RelativeLayout>

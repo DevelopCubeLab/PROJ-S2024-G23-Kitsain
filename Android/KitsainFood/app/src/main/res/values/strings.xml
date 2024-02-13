@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">Kitsain Food</string>
+
+    <string name="home">Home</string>
+    <string name="item">Item</string>
+    <string name="Me">Me</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_with_google">Use Google Account Login</string>
+    <string name="logout">Logout</string>
+
+    <string name="food_item">Food Item</string>
+    <string name="food_name">Food name</string>
+    <string name="shelf_life">shelf life</string>
+    <string name="amount">amount</string>
+    <string name="food_category">Food category</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="recipe_search">Recipe Search</string>
+    <string name="packaging_recycling">Package Recycle</string>
+    <string name="add_food_item">Add food item</string>
+
+    <string name="user">User</string>
+    <string name="post_time">Post time</string>
+    <string name="post_location">Post location</string>
+
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+    
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="reply">Reply</string>
+    <string name="Send">send</string>
+    <string name="send_content">Send content</string>
+
+    <string name="like">Like</string>
+    <string name="unlike">Unlike</string>
+    <string name="useful">Useful</string>
+    <string name="unuseful">Unuseful</string>
 </resources>
